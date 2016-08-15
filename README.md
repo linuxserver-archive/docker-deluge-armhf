@@ -62,4 +62,4 @@ To change the password (recommended) log in to the web interface and go to Prefe
 * Monitor the logs of the container in realtime `docker logs -f deluge`.
 
 ## Versions
-+ **13.08.16:** Initial Release.
++ **15.08.16:** Initial Release.
