@@ -1,13 +1,18 @@
-![https://linuxserver.io](https://www.linuxserver.io/wp-content/uploads/2015/06/linuxserver_medium.png)
+[linuxserverurl]: https://linuxserver.io
+[forumurl]: https://forum.linuxserver.io
+[ircurl]: https://www.linuxserver.io/index.php/irc/
+[podcasturl]: https://www.linuxserver.io/index.php/category/podcast/
 
-The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io](https://forum.linuxserver.io)
-* [IRC](https://www.linuxserver.io/index.php/irc/) on freenode at `#linuxserver.io`
-* [Podcast](https://www.linuxserver.io/index.php/category/podcast/) covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
+[![linuxserver.io](https://www.linuxserver.io/wp-content/uploads/2015/06/linuxserver_medium.png)][linuxserverurl]
+
+The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
+* [forum.linuxserver.io][forumurl]
+* [IRC][ircurl] on freenode at `#linuxserver.io`
+* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/deluge
-
-![](https://avatars2.githubusercontent.com/u/6733935?v=3&s=200)
+[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/deluge.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/deluge.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-deluge)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-deluge/)
+[hub]: https://hub.docker.com/r/lsioarmhf/deluge/
 
 [deluge](http://deluge-torrent.org/) Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
 
@@ -15,6 +20,9 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 * WebUI
 * Plugin System
 * Much more...
+
+[![deluge](https://avatars2.githubusercontent.com/u/6733935?v=3&s=200)][delugeurl]
+[delugeurl]: http://deluge-torrent.org/
 
 ## Usage
 
@@ -62,4 +70,6 @@ To change the password (recommended) log in to the web interface and go to Prefe
 * Monitor the logs of the container in realtime `docker logs -f deluge`.
 
 ## Versions
+
++ **06.09.16:** Add badges to README.
 + **15.08.16:** Initial Release.
