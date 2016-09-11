@@ -1,4 +1,4 @@
-FROM lsioarmhf/base.alpine
+FROM lsiobase/alpine.armhf
 MAINTAINER Gonzalo Peci <davyjones@linuxserver.io>, sparklyballs
 
 # environment variables
