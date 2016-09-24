@@ -12,9 +12,12 @@ RUN \
 	unzip && \
 
  apk add --no-cache \
+	--repository http://nl.alpinelinux.org/alpine/edge/community \
+	py-service_identity && \
+
+ apk add --no-cache \
 	--repository http://nl.alpinelinux.org/alpine/edge/testing \
-	deluge \
-	py-service_identity
+	deluge && \
 
 # add local files
 COPY root/ /
