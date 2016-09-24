@@ -17,7 +17,7 @@ RUN \
 
  apk add --no-cache \
 	--repository http://nl.alpinelinux.org/alpine/edge/testing \
-	deluge && \
+	deluge
 
 # add local files
 COPY root/ /
