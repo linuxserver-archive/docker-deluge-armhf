@@ -71,6 +71,7 @@ To change the password (recommended) log in to the web interface and go to Prefe
 
 ## Versions
 
++ **30.09.16:** Fix umask.
 + **11.09.16:** Add layer badges to README.
 + **06.09.16:** Add badges to README.
 + **15.08.16:** Initial Release.
