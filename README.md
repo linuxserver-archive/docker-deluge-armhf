@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/deluge
-[![](https://images.microbadger.com/badges/image/lsioarmhf/deluge.svg)](http://microbadger.com/images/lsioarmhf/deluge "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/deluge.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/deluge.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-deluge)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-deluge/)
+[![](https://images.microbadger.com/badges/version/lsioarmhf/deluge.svg)](https://microbadger.com/images/lsioarmhf/deluge "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/deluge.svg)](http://microbadger.com/images/lsioarmhf/deluge "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/deluge.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/deluge.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-deluge)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-deluge/)
 [hub]: https://hub.docker.com/r/lsioarmhf/deluge/
 
 [deluge](http://deluge-torrent.org/) Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
@@ -69,8 +69,18 @@ To change the password (recommended) log in to the web interface and go to Prefe
 
 * Monitor the logs of the container in realtime `docker logs -f deluge`.
 
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' deluge`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' lsioarmhf/deluge`
+
 ## Versions
 
++ **13.10.16:** Switch to libressl as openssl deprecated from alpine linux and deluge dependency
+no longer installs.
 + **30.09.16:** Fix umask.
 + **11.09.16:** Add layer badges to README.
 + **06.09.16:** Add badges to README.
