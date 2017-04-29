@@ -32,6 +32,7 @@ docker create \
   --net=host \
   -e PUID=<UID> -e PGID=<GID> \
   -e TZ=<timezone> \
+  -e UMASK_SET=<022> \
   -v </path/to/your/downloads>:/downloads \
   -v </path/to/deluge/config>:/config \
   lsioarmhf/deluge
@@ -48,8 +49,9 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 * `--net=host` - Shares host networking with container, **required**.
 * `-v /config` - deluge configs
 * `-v /downloads` - torrent download directory
-* `-e PGID` for for GroupID - see below for explanation
-* `-e PUID` for for UserID - see below for explanation
+* `-e PGID` for GroupID - see below for explanation
+* `-e PUID` for UserID - see below for explanation
+* `-e UMASK_SET` for umask setting of deluge, *optional* , default if left unset is 022.
 * `-e TZ` for timezone information, eg Europe/London
 
 It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it deluge /bin/bash`.
@@ -85,6 +87,7 @@ To change the password (recommended) log in to the web interface and go to Prefe
 
 ## Versions
 
++ **29.04.17:** Add variable for user defined umask.
 + **01.02.17:** Rebase to 3.5 baseimage.
 + **17.11.16:** Rebase to edge baseimage.
 + **13.10.16:** Switch to libressl as openssl deprecated from alpine linux and deluge dependency
