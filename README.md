@@ -87,8 +87,9 @@ To change the password (recommended) log in to the web interface and go to Prefe
 
 ## Versions
 
++ **27.05.17:** Rebase to alpine 3.6.
 + **29.04.17:** Add variable for user defined umask.
-+ **01.02.17:** Rebase to 3.5 baseimage.
++ **01.02.17:** Rebase to alpine 3.5.
 + **17.11.16:** Rebase to edge baseimage.
 + **13.10.16:** Switch to libressl as openssl deprecated from alpine linux and deluge dependency
 no longer installs.
