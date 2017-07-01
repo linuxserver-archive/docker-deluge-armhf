@@ -22,6 +22,7 @@ RUN \
 # install runtime packages
  apk add --no-cache \
 	ca-certificates \
+	curl \
 	openssl \
 	p7zip \
 	unrar \
