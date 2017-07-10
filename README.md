@@ -13,7 +13,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/deluge
-[![](https://images.microbadger.com/badges/version/lsioarmhf/deluge.svg)](https://microbadger.com/images/lsioarmhf/deluge "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/deluge.svg)](http://microbadger.com/images/lsioarmhf/deluge "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/deluge.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/deluge.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-deluge)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-deluge/)
+[![](https://images.microbadger.com/badges/version/lsioarmhf/deluge.svg)](https://microbadger.com/images/lsioarmhf/deluge "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/deluge.svg)](https://microbadger.com/images/lsioarmhf/deluge "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/deluge.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/deluge.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/armhf/armhf-deluge)](https://ci.linuxserver.io/job/Docker-Builders/job/armhf/job/armhf-deluge/)
 
 [deluge](http://deluge-torrent.org/) Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
 
