@@ -87,6 +87,7 @@ To change the password (recommended) log in to the web interface and go to Prefe
 
 ## Versions
 
++ **20.11.17:** Change libressl2.6-libssl repo.
 + **01.07.17:** Add curl package.
 + **27.05.17:** Rebase to alpine 3.6.
 + **29.04.17:** Add variable for user defined umask.
