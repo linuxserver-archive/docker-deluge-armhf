@@ -87,6 +87,7 @@ To change the password (recommended) log in to the web interface and go to Prefe
 
 ## Versions
 
++ **09.04.18:** update to libressl2.7-libssl.
 + **31.03.18:** Rebase to alpine edge.
 + **19.12.17:** Rebase to alpine 3.7.
 + **20.11.17:** Change libressl2.6-libssl repo.
