@@ -5,6 +5,8 @@
 [appurl]: http://deluge-torrent.org/
 [hub]: https://hub.docker.com/r/lsioarmhf/deluge/
 
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/deluge`
+
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
@@ -87,7 +89,8 @@ To change the password (recommended) log in to the web interface and go to Prefe
 
 ## Versions
 
-+ **11.10.18:** Rebase to ubuntu bionic.
++ **12.10.18:** This image is deprecated. Please use the multi-arch images at `linuxserver/deluge`.
++ **11.10.18:** Rebase to ubuntu bionic. 
 + **09.04.18:** update to libressl2.7-libssl.
 + **31.03.18:** Rebase to alpine edge.
 + **19.12.17:** Rebase to alpine 3.7.
